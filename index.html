@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: rgb(109, 114, 114);
+        }
+
+        #cars_card {
+            background-color: rgb(40, 43, 40);
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            border-radius: 15px;
+            flex-direction: column;
+        }
+
+        #cars_card h6 {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 25px;
+            color: azure;
+        }
+
+        #cars_card p {
+
+            font-weight: 500;
+            font-size: 18px;
+            font-family: sans-serif;
+            color: bisque;
+        }
+
+        #findBtn {
+            background-color: rgb(40, 43, 40);
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+
+    <div id="cars_card">
+    </div>
+
+    <button id="findBtn" onclick="findFuntction()">find car</button>
+
+<!-- <script src="./main.js"></script> -->
+
+</body>
+
+</html>
